@@ -5,7 +5,7 @@ fn main() {
     two_sum(vec![3, 2, 4], 6);
 }
 
-// easier solution 23ms 2.3MB Memory
+// easier solution 56ms 2.3MB Memory
 pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
     for (idx, i) in nums.iter().enumerate() {
         for (ndx, n) in nums.iter().enumerate() {
